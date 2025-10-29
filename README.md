@@ -71,17 +71,13 @@ Una aplicación backend sencilla de lista de tareas (“Todo”) desarrollada co
 ## 📁 Estructura del proyecto
 
 ```
-├── cmd/                # Punto de entrada(s) de la aplicación
-├── internal/           # Lógica de negocio, servicios, repositorios
-├── pkg/                # Paquetes reutilizables
-├── migrations/         # Scripts o archivos de migración
-├── api/                # Controladores, rutas HTTP
+├── db.go               # Controlador de Base de Datos
+├── main.go             # Punto de entrada de la app
+├── task.go/            # Rutas de funciones de la app
 ├── go.mod
 ├── go.sum
 └── README.md
 ```
-
-> Ajusta los nombres según lo que realmente tenga el repositorio.
 
 ## ✅ Buenas prácticas aplicadas
 
